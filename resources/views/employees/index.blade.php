@@ -6,7 +6,10 @@
 
 @section('content')
 <div class="max-w-6xl mx-auto px-6 py-10 w-full">
-
+    <a href="{{ route('home') }}"
+        class="inline-flex items-center mb-6 text-emerald-700 hover:underline">
+            ← Back to Home
+    </a>
     <!-- Header -->
     <div class="flex justify-between items-center mb-8">
         <h1 class="text-3xl font-semibold">Employees</h1>

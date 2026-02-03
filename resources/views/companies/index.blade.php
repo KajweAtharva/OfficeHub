@@ -2,7 +2,10 @@
 
 @section('content')
 <div class="page-container">
-
+    <a href="{{ route('home') }}"
+        class="inline-flex items-center mb-6 text-emerald-700 hover:underline">
+            ← Back to Home
+    </a>
     <!-- Header -->
     <div class="flex justify-between items-center mb-6">
         <h1 class="page-title">Companies</h1>
