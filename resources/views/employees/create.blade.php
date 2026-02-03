@@ -2,7 +2,10 @@
 
 @section('content')
 <div class="max-w-3xl mx-auto px-6 py-10 w-full">
-
+    <a href="{{ route('home') }}"
+        class="inline-flex items-center mb-6 text-emerald-700 hover:underline">
+            ← Back to Home
+    </a>
     <h1 class="text-3xl mb-8">Add Employee</h1>
 
     <form method="POST" action="{{ route('employees.store') }}" class="space-y-8">
